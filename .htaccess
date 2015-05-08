@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^(css|js|images)($|/) - [L]
+RewriteRule (.*) public/$1 [L]
